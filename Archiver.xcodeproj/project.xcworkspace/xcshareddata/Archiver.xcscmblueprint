@@ -1,0 +1,212 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "17D0C1B665AFDBA9BDB0B91991FF29226F2624E0+++DB5467A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "748C9296F4CFA6FB6918A0C73ECFD0DCCA1E2109+++EBD9349" : 9223372036854775807,
+    "0A000D15E5D587E98AA6062DC3514BBD1EE82D08+++CD3A4C0" : 9223372036854775807,
+    "7E7C1062562B886ABFA1C65C1E929E1339657116+++2FD5584" : 9223372036854775807,
+    "3F9B9022A6C4B738254AF2773C6BA3F0E8621A22+++7EBA1EE" : 9223372036854775807,
+    "7160993639D210FFD271D4099391865FDD575162+++E5CB2D6" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++229BBAE" : 9223372036854775807,
+    "D81F653129D614C7585FD79F985702AFD09DBE56+++3270227" : 9223372036854775807,
+    "F024B372FCFF470DA20DD02157DAACC2E58B7655+++3D0FBCF" : 9223372036854775807,
+    "EE0211841CDBC942EFB5905580DF4AA57B5992F6+++7096B3C" : 9223372036854775807,
+    "9948E95A70F754B78E92114BF205DC946294AF5D+++617AC4E" : 9223372036854775807,
+    "013355313FF9FF2B55EA1241A5D12353638D9AC3+++12BC771" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++E9D632F" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++9347507" : 9223372036854775807,
+    "CADB2473D823C4B67E031AA19BD5C58C5C0C5C2C+++C0BF7D3" : 9223372036854775807,
+    "DCA698EAAA175C2796E06D7F52A4609033E8DEB9+++14EB13A" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++59CB0B8" : 9223372036854775807,
+    "CEB2E85BAD5A62B0D123EC0B10F5265A329CEEBA+++919E26B" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++BAD6A37" : 9223372036854775807,
+    "FA1A81ABF8246E1CE90540CBD9C4FDE274E58507+++F05F6CA" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++0BD4DC9" : 9223372036854775807,
+    "3D2B8B3C65A5DCCE6F839227AA4595360205FD35+++C10C7D5" : 9223372036854775807,
+    "A1425CC37302E6F8C8BD550497B9059B098D1BAF+++BC278BB" : 9223372036854775807,
+    "65880DAFEE5F57D1D1C181560E763EECFD96B06D+++4919196" : 9223372036854775807,
+    "17D0C1B665AFDBA9BDB0B91991FF29226F2624E0+++DB5467A" : 9223372036854775807,
+    "9C479842BAB37E5A02B52F0D8BB690041F1A927F+++A597F91" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++34E7011" : 9223372036854775807,
+    "9D593077127927B16A2AFDAF369C35CBF2F2669C+++541E30E" : 9223372036854775807,
+    "07D38DC615E8ADA07E68B7DA8DD8A2654638A334+++3BD12BF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D03DEBD9-8EF3-439C-B6DF-0798E8258B05",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "748C9296F4CFA6FB6918A0C73ECFD0DCCA1E2109+++EBD9349" : "Archiver\/.build\/checkouts\/console.git--2431895819212044213\/",
+    "0A000D15E5D587E98AA6062DC3514BBD1EE82D08+++CD3A4C0" : "Archiver\/.build\/checkouts\/postgresql-provider.git-349369297250968046\/",
+    "7E7C1062562B886ABFA1C65C1E929E1339657116+++2FD5584" : "Archiver\/.build\/checkouts\/Turnstile.git-2443676010155639616\/",
+    "3F9B9022A6C4B738254AF2773C6BA3F0E8621A22+++7EBA1EE" : "Archiver\/.build\/checkouts\/fluent-provider.git-1502561075136423204\/",
+    "7160993639D210FFD271D4099391865FDD575162+++E5CB2D6" : "Archiver\/.build\/checkouts\/auth.git-9199502942084726963\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++229BBAE" : "Archiver\/.build\/checkouts\/core.git-9210800844849382486\/",
+    "D81F653129D614C7585FD79F985702AFD09DBE56+++3270227" : "Archiver\/.build\/checkouts\/postgresql.git--2366079956334960021\/",
+    "F024B372FCFF470DA20DD02157DAACC2E58B7655+++3D0FBCF" : "Archiver\/.build\/checkouts\/bcrypt.git-6177224099894028443\/",
+    "EE0211841CDBC942EFB5905580DF4AA57B5992F6+++7096B3C" : "Archiver\/.build\/checkouts\/node.git-9175390252000121167\/",
+    "9948E95A70F754B78E92114BF205DC946294AF5D+++617AC4E" : "Archiver\/.build\/checkouts\/json.git-9153249592855998091\/",
+    "013355313FF9FF2B55EA1241A5D12353638D9AC3+++12BC771" : "Archiver\/.build\/checkouts\/tls.git-2678149690400510061\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++E9D632F" : "Archiver\/.build\/checkouts\/vapor.git-5492988889259800272\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++9347507" : "Archiver\/.build\/checkouts\/routing.git-5366657101075133678\/",
+    "CADB2473D823C4B67E031AA19BD5C58C5C0C5C2C+++C0BF7D3" : "Archiver\/.build\/checkouts\/multipart.git-4210556629793786970\/",
+    "DCA698EAAA175C2796E06D7F52A4609033E8DEB9+++14EB13A" : "Archiver\/.build\/checkouts\/random.git--3118593962244350674\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++59CB0B8" : "Archiver\/.build\/checkouts\/vapor.git-5492988889259800272\/",
+    "CEB2E85BAD5A62B0D123EC0B10F5265A329CEEBA+++919E26B" : "Archiver\/.build\/checkouts\/sqlite.git--8232814251736334455\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++BAD6A37" : "Archiver\/.build\/checkouts\/vapor.git-5492988889259800272\/",
+    "FA1A81ABF8246E1CE90540CBD9C4FDE274E58507+++F05F6CA" : "Archiver\/.build\/checkouts\/auth-provider.git-2099911502650186246\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++0BD4DC9" : "Archiver\/.build\/checkouts\/engine.git-3311994267206676365\/",
+    "3D2B8B3C65A5DCCE6F839227AA4595360205FD35+++C10C7D5" : "Archiver\/.build\/checkouts\/bits.git-9196587591774126515\/",
+    "A1425CC37302E6F8C8BD550497B9059B098D1BAF+++BC278BB" : "Archiver\/.build\/checkouts\/debugging.git-4365319567167379684\/",
+    "65880DAFEE5F57D1D1C181560E763EECFD96B06D+++4919196" : "Archiver\/.build\/checkouts\/fluent.git-6251908308727715749\/",
+    "17D0C1B665AFDBA9BDB0B91991FF29226F2624E0+++DB5467A" : "Archiver\/",
+    "9C479842BAB37E5A02B52F0D8BB690041F1A927F+++A597F91" : "Archiver\/.build\/checkouts\/sockets.git-972942978533733666\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++34E7011" : "Archiver\/.build\/checkouts\/vapor.git-5492988889259800272\/",
+    "9D593077127927B16A2AFDAF369C35CBF2F2669C+++541E30E" : "Archiver\/.build\/checkouts\/postgresql-driver.git-1390385983276277199\/",
+    "07D38DC615E8ADA07E68B7DA8DD8A2654638A334+++3BD12BF" : "Archiver\/.build\/checkouts\/crypto.git-7980259129511365902\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Archiver",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Archiver.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/tls.git-2678149690400510061",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "013355313FF9FF2B55EA1241A5D12353638D9AC3+++12BC771"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/crypto.git-7980259129511365902",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07D38DC615E8ADA07E68B7DA8DD8A2654638A334+++3BD12BF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/postgresql-provider.git-349369297250968046",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A000D15E5D587E98AA6062DC3514BBD1EE82D08+++CD3A4C0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/zasia\/receitpsarchivervapor2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "17D0C1B665AFDBA9BDB0B91991FF29226F2624E0+++DB5467A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/bits.git-9196587591774126515",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3D2B8B3C65A5DCCE6F839227AA4595360205FD35+++C10C7D5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/fluent-provider.git-1502561075136423204",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3F9B9022A6C4B738254AF2773C6BA3F0E8621A22+++7EBA1EE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/engine.git-3311994267206676365",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++0BD4DC9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/core.git-9210800844849382486",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++229BBAE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/core.git-9210800844849382486",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++34E7011"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/routing.git-5366657101075133678",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++59CB0B8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/routing.git-5366657101075133678",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++9347507"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/engine.git-3311994267206676365",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++BAD6A37"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/vapor.git-5492988889259800272",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++E9D632F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/fluent.git-6251908308727715749",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65880DAFEE5F57D1D1C181560E763EECFD96B06D+++4919196"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/auth.git-9199502942084726963",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7160993639D210FFD271D4099391865FDD575162+++E5CB2D6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/console.git--2431895819212044213",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "748C9296F4CFA6FB6918A0C73ECFD0DCCA1E2109+++EBD9349"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/Turnstile.git-2443676010155639616",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E7C1062562B886ABFA1C65C1E929E1339657116+++2FD5584"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/json.git-9153249592855998091",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9948E95A70F754B78E92114BF205DC946294AF5D+++617AC4E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/sockets.git-972942978533733666",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C479842BAB37E5A02B52F0D8BB690041F1A927F+++A597F91"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/postgresql-driver.git-1390385983276277199",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9D593077127927B16A2AFDAF369C35CBF2F2669C+++541E30E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/debugging.git-4365319567167379684",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A1425CC37302E6F8C8BD550497B9059B098D1BAF+++BC278BB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/multipart.git-4210556629793786970",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CADB2473D823C4B67E031AA19BD5C58C5C0C5C2C+++C0BF7D3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/sqlite.git--8232814251736334455",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CEB2E85BAD5A62B0D123EC0B10F5265A329CEEBA+++919E26B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/postgresql.git--2366079956334960021",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D81F653129D614C7585FD79F985702AFD09DBE56+++3270227"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/random.git--3118593962244350674",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DCA698EAAA175C2796E06D7F52A4609033E8DEB9+++14EB13A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/node.git-9175390252000121167",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EE0211841CDBC942EFB5905580DF4AA57B5992F6+++7096B3C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/bcrypt.git-6177224099894028443",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F024B372FCFF470DA20DD02157DAACC2E58B7655+++3D0FBCF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/joannazatorska\/Vapor\/Archiver\/.build\/repositories\/auth-provider.git-2099911502650186246",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FA1A81ABF8246E1CE90540CBD9C4FDE274E58507+++F05F6CA"
+    }
+  ]
+}
