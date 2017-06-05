@@ -12,9 +12,18 @@ public protocol BasicTokenAuthenticable {}
 
 public final class AuthenticationMiddleware<U: BasicTokenAuthenticable>: Middleware {
     
-    public init(_ type: U.Type = U.self) {}
+    let type: U.Type!
+    
+    public init(_ type: U.Type = U.self) {
+        self.type = type
+    }
     
     public func respond(to request: Request, chainingTo next: Responder) throws -> Response {
+        guard type is BasicTokenAuthenticable else {
+            return try next.respond(to: request)
+            
+        }
+        
         guard let token = request.auth.header?.bearer else {
             throw Abort(.networkAuthenticationRequired, metadata: "Not authorized")
         }
