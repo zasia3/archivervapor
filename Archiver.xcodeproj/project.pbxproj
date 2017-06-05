@@ -19,6 +19,7 @@
 		E71A665D1EE0176C009FD19D /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71A665C1EE0176C009FD19D /* PhotoController.swift */; };
 		E71A66631EE02AFB009FD19D /* ShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71A66621EE02AFB009FD19D /* ShopController.swift */; };
 		E71A66651EE041B3009FD19D /* AuthenticationMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71A66641EE041B3009FD19D /* AuthenticationMiddleware.swift */; };
+		E71A666C1EE57FFD009FD19D /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71A666B1EE57FFD009FD19D /* RequestError.swift */; };
 		OBJ_1000 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_837 /* Debugging.framework */; };
 		OBJ_1001 /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_838 /* libc.framework */; };
 		OBJ_1002 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_839 /* Core.framework */; };
@@ -1053,8 +1054,6 @@
 		OBJ_2741 /* Config+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Config+Setup.swift */; };
 		OBJ_2742 /* Droplet+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Droplet+Setup.swift */; };
 		OBJ_2743 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Routes.swift */; };
-		OBJ_2744 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* PostController.swift */; };
-		OBJ_2745 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Post.swift */; };
 		OBJ_2747 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_836 /* Bits.framework */; };
 		OBJ_2748 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_837 /* Debugging.framework */; };
 		OBJ_2749 /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_838 /* libc.framework */; };
@@ -5628,6 +5627,7 @@
 		E71A665C1EE0176C009FD19D /* PhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
 		E71A66621EE02AFB009FD19D /* ShopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopController.swift; sourceTree = "<group>"; };
 		E71A66641EE041B3009FD19D /* AuthenticationMiddleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationMiddleware.swift; sourceTree = "<group>"; };
+		E71A666B1EE57FFD009FD19D /* RequestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
 		OBJ_10 /* Droplet+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Droplet+Setup.swift"; sourceTree = "<group>"; };
 		OBJ_100 /* Exports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exports.swift; sourceTree = "<group>"; };
 		OBJ_101 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
@@ -5652,7 +5652,6 @@
 		OBJ_127 /* Exports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exports.swift; sourceTree = "<group>"; };
 		OBJ_128 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		OBJ_129 /* Node+Row+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Node+Row+JSON.swift"; sourceTree = "<group>"; };
-		OBJ_13 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 		OBJ_130 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
 		OBJ_131 /* Prepare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prepare.swift; sourceTree = "<group>"; };
 		OBJ_132 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
@@ -5668,7 +5667,6 @@
 		OBJ_145 /* Request+Updateable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Request+Updateable.swift"; sourceTree = "<group>"; };
 		OBJ_146 /* Updateable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updateable.swift; sourceTree = "<group>"; };
 		OBJ_147 /* UpdateableKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateableKey.swift; sourceTree = "<group>"; };
-		OBJ_15 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		OBJ_151 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		OBJ_152 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		OBJ_153 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
@@ -7257,6 +7255,7 @@
 			isa = PBXGroup;
 			children = (
 				E71A66641EE041B3009FD19D /* AuthenticationMiddleware.swift */,
+				E71A666B1EE57FFD009FD19D /* RequestError.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -7320,7 +7319,6 @@
 		OBJ_12 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_13 /* PostController.swift */,
 				E717AC1C1EDEADB40064910B /* UserController.swift */,
 				E717AC261EDED1550064910B /* AuthController.swift */,
 				E71A665A1EE00E0F009FD19D /* ReceiptController.swift */,
@@ -7390,7 +7388,6 @@
 		OBJ_14 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_15 /* Post.swift */,
 				E7194C7E1EDDA672008D276C /* User.swift */,
 				E717AC1A1EDEA2880064910B /* AuthToken.swift */,
 				E717AC241EDECA9A0064910B /* TokenCreator.swift */,
@@ -11879,15 +11876,14 @@
 				E717AC1D1EDEADB40064910B /* UserController.swift in Sources */,
 				E717AC251EDECA9A0064910B /* TokenCreator.swift in Sources */,
 				E7194C801EDDA678008D276C /* User.swift in Sources */,
+				E71A666C1EE57FFD009FD19D /* RequestError.swift in Sources */,
 				E71A665B1EE00E0F009FD19D /* ReceiptController.swift in Sources */,
 				OBJ_2743 /* Routes.swift in Sources */,
-				OBJ_2744 /* PostController.swift in Sources */,
 				E71A66591EE00B2D009FD19D /* Shop.swift in Sources */,
 				E71A66551EE006FA009FD19D /* Photo.swift in Sources */,
 				E717AC271EDED1550064910B /* AuthController.swift in Sources */,
 				E71A66631EE02AFB009FD19D /* ShopController.swift in Sources */,
 				E717AC1B1EDEA2880064910B /* AuthToken.swift in Sources */,
-				OBJ_2745 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

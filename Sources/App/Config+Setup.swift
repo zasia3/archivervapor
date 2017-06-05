@@ -9,10 +9,6 @@ extension Config {
 
         try setupProviders()
         try setupPreparations()
-        
-        addConfigurable(middleware: AuthenticationMiddleware(Photo.self), name: "authentication")
-        addConfigurable(middleware: AuthenticationMiddleware(Shop.self), name: "authentication")
-        addConfigurable(middleware: AuthenticationMiddleware(Receipt.self), name: "authentication")
     }
     
     /// Configure providers
@@ -24,12 +20,10 @@ extension Config {
     /// Add all models that should have their
     /// schemas prepared before the app boots
     private func setupPreparations() throws {
-        preparations.append(Post.self)
         preparations.append(User.self)
         preparations.append(Shop.self)
         preparations.append(AuthToken.self)
         preparations.append(Photo.self)
         preparations.append(Receipt.self)
-        
     }
 }

@@ -73,7 +73,6 @@ extension Shop: JSONConvertible {
 }
 
 extension Shop: ResponseRepresentable { }
-extension Shop: BasicTokenAuthenticable {}
 
 extension Request {
     func shop() throws -> Shop {
