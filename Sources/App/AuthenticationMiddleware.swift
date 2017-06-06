@@ -8,33 +8,22 @@
 
 import HTTP
 
-public protocol BasicTokenAuthenticable {}
+public final class AuthenticationMiddleware: Middleware {
 
-public final class AuthenticationMiddleware<U: BasicTokenAuthenticable>: Middleware {
-    
-    let type: U.Type!
-    
-    public init(_ type: U.Type = U.self) {
-        self.type = type
-    }
-    
     public func respond(to request: Request, chainingTo next: Responder) throws -> Response {
-        guard type is BasicTokenAuthenticable else {
-            return try next.respond(to: request)
-            
-        }
-        
+
         guard let token = request.auth.header?.bearer else {
-            throw Abort(.networkAuthenticationRequired, metadata: "Not authorized")
+            throw RequestError.notAuthorized
         }
         
-        guard let id = request.json?["user_id"] else {
-            throw Abort(.networkAuthenticationRequired, metadata: "Invalid user")
+        guard let userId = request.headers["X-User-Id"] else {
+            throw RequestError.invalidUser
         }
-        if try AuthToken.isValid(token.string, for: Identifier(id)) {
+        
+        if try AuthToken.isValid(token.string, for: Identifier(userId)) {
             return try next.respond(to: request)
         }
         
-        throw Abort(.networkAuthenticationRequired, metadata: "Token expired")
+        throw RequestError.tokenExpired
     }
 }

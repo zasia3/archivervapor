@@ -26,7 +26,7 @@ final class AuthController {
             try token.save()
             return token
         } else {
-            throw Abort(.conflict, metadata: "User already exists")
+            throw RequestError.userExists
         }
     }
     
@@ -37,15 +37,18 @@ final class AuthController {
             throw Abort(.badRequest)
         }
         guard let existingUser = try User.makeQuery().filter("name", name).first() else {
-            throw Abort(.networkAuthenticationRequired, metadata: "User does not exist")
+            throw RequestError.userNotExisting
         }
         if try User.hasher().verify(password: password, matches: existingUser.password) {
+            let authToken = try AuthToken.makeQuery().filter("user_id", existingUser.id).first()
+            
             let token = try userToken(username: existingUser.name, password: existingUser.password, id: existingUser.id!)
             try token.save()
+            try authToken?.delete()
             return token
         }
         
-        throw Abort(.networkAuthenticationRequired, metadata: "Invalid password")
+        throw RequestError.invalidPassword
     }
     
     func logout(_ request: Request) throws -> ResponseRepresentable {
@@ -54,7 +57,7 @@ final class AuthController {
         }
 
         guard let existingUser = try User.makeQuery().filter("name", name).first() else {
-            throw Abort(.networkAuthenticationRequired, metadata: "User does not exist")
+            throw RequestError.userNotExisting
         }
         
         let userToken = try AuthToken.makeQuery().filter("user_id", existingUser.id!)

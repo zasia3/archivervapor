@@ -58,8 +58,6 @@ extension Photo: JSONConvertible {
     }
 }
 
-extension Photo: BasicTokenAuthenticable {}
-
 extension Photo: ResponseRepresentable {
     public func makeResponse() throws -> Response {
         let imageFolder = "Public/images"

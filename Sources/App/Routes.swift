@@ -2,6 +2,7 @@ import Vapor
 
 final class Routes: RouteCollection {
     func build(_ builder: RouteBuilder) throws {
+        
         builder.get("hello") { req in
             var json = JSON()
             try json.set("hello", "world")
@@ -23,17 +24,20 @@ final class Routes: RouteCollection {
         builder.get("me") { req in
             return try req.user().name
         }
-        
+        let errorBuilder = builder.grouped(RequestErrorMiddleware())
         let authController = AuthController()
-        authController.addRoutes(to: builder)
+        authController.addRoutes(to: errorBuilder)
+        
+        try errorBuilder.resource("users", UserController.self)
+        
+        let grouped = errorBuilder.grouped(AuthenticationMiddleware())
         
         let receiptsController = ReceiptController()
-        receiptsController.addRoutes(to: builder)
+        receiptsController.addRoutes(to: grouped)
         
-        try builder.resource("users", UserController.self)
-        try builder.resource("receipts", ReceiptController.self)
-        try builder.resource("photos", PhotoController.self)
-        try builder.resource("shops", ShopController.self)
+        try grouped.resource("receipts", ReceiptController.self)
+        try grouped.resource("photos", PhotoController.self)
+        try grouped.resource("shops", ShopController.self)
     }
 }
 

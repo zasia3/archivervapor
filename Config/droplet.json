@@ -32,8 +32,7 @@
     "middleware": [
         "error",
         "date",
-        "file",
-        "authentication"
+        "file"
     ],
 
     "//": "Choose which commands this application can run",

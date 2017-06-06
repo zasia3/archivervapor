@@ -8,43 +8,43 @@
 
 import Vapor
 import HTTP
+import Routing
 
 final class ReceiptController: ResourceRepresentable {
     
     func addRoutes(to builder: RouteBuilder) {
-        builder.get("shop", handler: shop)
-        builder.get("receiptphoto", handler: receiptphoto)
-        builder.get("itemphoto", handler: itemphoto)
+        let grouped = builder.grouped("receipts")
+        grouped.get(Receipt.parameter, "shop", handler: shop)
+        grouped.get(Receipt.parameter,"receiptphoto", handler: receiptphoto)
+        grouped.get(Receipt.parameter,"itemphoto", handler: itemphoto)
     }
     
     func shop(request: Request) throws -> ResponseRepresentable {
-        
-        let receipt = try request.receipt()
-
+        let receipt = try request.parameters.next(Receipt.self)
         if let shop = try receipt.shop.get() {
             return shop
         }
-        return Response(status: .notFound)
+        throw RequestError.resourceNotExists
     }
     
     func receiptphoto(request: Request) throws -> ResponseRepresentable {
         
-        let receipt = try request.receipt()
+        let receipt = try request.parameters.next(Receipt.self)
         
-        if let shop = try receipt.shop.get() {
-            return shop
+        if let photo = try receipt.receiptPhoto.get() {
+            return photo
         }
-        return Response(status: .notFound)
+        throw RequestError.resourceNotExists
     }
     
     func itemphoto(request: Request) throws -> ResponseRepresentable {
         
-        let receipt = try request.receipt()
+        let receipt = try request.parameters.next(Receipt.self)
         
-        if let shop = try receipt.shop.get() {
-            return shop
+        if let photo = try receipt.itemPhoto.get() {
+            return photo
         }
-        return Response(status: .notFound)
+        throw RequestError.resourceNotExists
     }
     
     func index(request: Request) throws -> ResponseRepresentable {

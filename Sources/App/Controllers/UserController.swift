@@ -30,16 +30,16 @@ final class UserController: ResourceRepresentable {
     
     func show(request: Request, user: User) throws -> ResponseRepresentable {
         guard let token = request.auth.header?.bearer else {
-            throw Abort(.networkAuthenticationRequired, metadata: "Not authorized")
+            throw RequestError.notAuthorized
         }
         guard let id = user.id else {
-            throw Abort(.networkAuthenticationRequired, metadata: "Invalid user")
+            throw RequestError.invalidUser
         }
         if try AuthToken.isValid(token.string, for: id) {
             return user
         }
         
-        throw Abort(.networkAuthenticationRequired, metadata: "Token expired")
+        throw RequestError.tokenExpired
     }
     
     func delete(request: Request, user: User) throws -> ResponseRepresentable {

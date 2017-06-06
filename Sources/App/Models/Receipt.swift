@@ -57,9 +57,9 @@ extension Receipt: Preparation {
             receipt.string("name")
             receipt.double("date")
             receipt.parent(Photo.self, foreignIdKey: "receiptphoto_id")
-            receipt.parent(Photo.self, foreignIdKey: "itemphoto_id")
+            receipt.parent(Photo.self, optional: true, foreignIdKey: "itemphoto_id")
             receipt.parent(User.self)
-            receipt.parent(Shop.self)
+            receipt.parent(Shop.self, optional: true)
         }
     }
     
@@ -93,7 +93,6 @@ extension Receipt: JSONConvertible {
     }
 }
 
-extension Receipt: BasicTokenAuthenticable {}
 extension Receipt: ResponseRepresentable {}
 
 extension Request {

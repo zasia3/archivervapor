@@ -14,7 +14,7 @@ final class PhotoController: ResourceRepresentable {
     func create(request: Request) throws -> ResponseRepresentable {
         let photo = try request.photo()
         try photo.save()
-        return photo
+        return try photo.makeJSON()
     }
     
     func makeResource() -> Resource<Photo> {

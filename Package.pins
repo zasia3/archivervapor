@@ -71,7 +71,7 @@
       "package": "Fluent",
       "reason": null,
       "repositoryURL": "https://github.com/vapor/fluent.git",
-      "version": "2.0.2"
+      "version": "2.0.3"
     },
     {
       "package": "FluentProvider",
@@ -95,7 +95,7 @@
       "package": "Node",
       "reason": null,
       "repositoryURL": "https://github.com/vapor/node.git",
-      "version": "2.0.1"
+      "version": "2.0.3"
     },
     {
       "package": "PostgreSQL",
@@ -143,19 +143,13 @@
       "package": "TLS",
       "reason": null,
       "repositoryURL": "https://github.com/vapor/tls.git",
-      "version": "2.0.1"
-    },
-    {
-      "package": "Turnstile",
-      "reason": null,
-      "repositoryURL": "https://github.com/stormpath/Turnstile.git",
-      "version": "1.0.6"
+      "version": "2.0.4"
     },
     {
       "package": "Vapor",
       "reason": null,
       "repositoryURL": "https://github.com/vapor/vapor.git",
-      "version": "2.0.4"
+      "version": "2.0.5"
     }
   ],
   "version": 1
