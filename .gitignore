@@ -11,5 +11,6 @@ xcuserdata
 *.xcodeproj
 DerivedData/
 .DS_Store
-
+Archiver.xcodeproj/project.xcworkspace/xcuserdata
+Archiver.xcodeproj/xcuserdata
 # End of https://www.gitignore.io/api/vapor
